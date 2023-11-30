@@ -408,8 +408,8 @@ header button:hover {
 
 }
 
-.support-cont .material-symbols-outlined {
-  font-size: 70px;
+.support-cont img {
+  width: 70px;
   font-weight: 200px;
   color: var(--color_1);
   animation: float 2s linear 0.3s infinite;
