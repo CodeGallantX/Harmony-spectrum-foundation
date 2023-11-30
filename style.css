@@ -13,6 +13,7 @@ html {
 
 body {
   width: 100%;
+  margin: 0;
 }
 
 .home {
@@ -400,18 +401,12 @@ header button:hover {
     opacity: 1;
   }
 
-  50% {
-    transform: translateY(-20px);
-    opacity: 1;
-  }
-
   100% {
-    transform: translateY(0);
-    opacity: 0;
+    transform: translateY(10px);
+    opacity: 0.2;
   }
 
 }
-
 
 .support-cont .material-symbols-outlined {
   font-size: 70px;
@@ -504,11 +499,15 @@ header button:hover {
 
 
   50% {
-    transform: rotateY(20deg);
+    transform: rotateY(10deg);
+  }
+
+  75% {
+    transform: rotateY(0deg)
   }
 
   100% {
-    transform: rotateY(-40deg);
+    transform: rotateY(-20deg);
 
   }
 }
@@ -582,6 +581,10 @@ header button:hover {
   border-radius: 10px;
 }
 
+.sam {
+  width: 280px;
+}
+
 .news-card-details {
   display: flex;
   flex-direction: column;
@@ -650,16 +653,23 @@ header button:hover {
 
 
 /*CONTACT SECTION*/
-
 #contact {
   height: 50vh;
   background-color: var(--color_4);
   font-family: Mulish, sans-serif;
   font-size: 18px;
   color: var(--color_1);
+  padding: 40px;
+}
+
+.contact-up {
   display: flex;
   gap: 40px;
-  padding: 20px 40px;
+}
+
+.below {
+  width: 150px;
+  height: 120px;
 }
 
 .contact-links {
@@ -670,8 +680,42 @@ header button:hover {
 
 .contact-links ul {
   gap: 20px;
+  padding: 0;
 }
 
 .contact-links ul li {
-  list-style-type: none
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+hr {
+
+  color: var(--color_1);
+  border-color: var(--color_1);
+  margin: 20px 0px;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons svg {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 0;
+}
+
+.social-icons svg:hover {
+  fill: var(--color_3);
+  border-radius: 50%;
+  border: 1px solid var(--color_1);
 }
