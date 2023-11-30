@@ -416,6 +416,10 @@ header button:hover {
   text-align: center;
 }
 
+.second-img { 
+  animation: float 3s linear 0.5s infinite
+}
+
 .support-cont h3 {
   color: var(--color_1);
   font-size: 24px;
