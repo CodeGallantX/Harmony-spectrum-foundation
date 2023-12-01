@@ -650,7 +650,7 @@ header button:hover {
 }
 
 .support-emphasis-button button:hover {
-  border: 1px solid var(--color_1);
+  border: 2px solid var(--color_1);
   background: transparent;
   color: var(--color_1);
 }
