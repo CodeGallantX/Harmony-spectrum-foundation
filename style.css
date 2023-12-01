@@ -249,7 +249,7 @@ header button:hover {
 /* Care and Therapy */
 #care {
   scroll-margin-top: 90px;
-  height: 250vh;
+  height: 280vh;
   background-color: var(--color_5);
   padding-top: 50px;
   padding: 30px 10% 10px 10%;
@@ -332,8 +332,9 @@ header button:hover {
 /*Volunteer Section*/
 #volunteer {
   scroll-margin-top: 70px;
-  background-image: url(https://ik.imagekit.io/mshcgnjju/Harmony%20Spectrum%20Foundation/a-nigerian-teacher-helping-her-pupil-with-her-assi-upscaled.png?updatedAt=1701387907063);
+  background-image: url(https://ik.imagekit.io/mshcgnjju/Harmony%20Spectrum%20Foundation/a-nigerian-teacher-helping-her-pupil-with-her-assi-upscaled-dark?updatedAt=1701388289773);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .volunts {
@@ -416,9 +417,6 @@ header button:hover {
   text-align: center;
 }
 
-.second-img { 
-  animation: float 3s linear 0.5s infinite
-}
 
 .support-cont h3 {
   color: var(--color_1);
@@ -478,10 +476,6 @@ header button:hover {
 }
 
 .founder-div-image {
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  background: linear-gradient(45deg, #8c9095, #aaaeb4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,8 +484,8 @@ header button:hover {
 }
 
 .founder-div-image img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
