@@ -249,7 +249,7 @@ header button:hover {
 /* Care and Therapy */
 #care {
   scroll-margin-top: 90px;
-  height: 280vh;
+  height: 230vh;
   background-color: var(--color_5);
   padding-top: 50px;
   padding: 30px 10% 10px 10%;
