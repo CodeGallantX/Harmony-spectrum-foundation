@@ -16,8 +16,11 @@ body {
   margin: 0;
 }
 
-.home {
-  background: url(https://ik.imagekit.io/mshcgnjju/landing%20page%20background_KnyHKE68w?updatedAt=1701043269073);
+.home {  
+  background: url(https://images.unsplash.com/photo-1475609471617-0ef53b59cff5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW90aGVyJTIwYW5kJTIwc29ufGVufDB8fDB8fHww);
+  background-size: cover;
+  background-position: 0 -400px;
+  background-repeat: no-repeat;
 }
 
 header {
